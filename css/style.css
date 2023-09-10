@@ -1,3 +1,19 @@
+.bar {
+  width: 100%;
+  height: 75px;
+  background-color: rgb(39, 39, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+.bar p {
+  font-family: sono, sans-serif;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: aliceblue;
+}
+
 @media (min-width: 722px) {
   body {
     padding: 0;
@@ -21,21 +37,6 @@
   }
 }
 
-.bar {
-  width: 100%;
-  height: 50px;
-  background-color: rgb(39, 39, 236);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-}
-.bar p {
-  font-family: sono, sans-serif;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-  color: aliceblue;
-}
 .card {
   max-width: 600px;
   width: 200px;
@@ -97,7 +98,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    height: 251vh;
+    height: 158vh;
   }
   .container {
     display: flex;
@@ -106,7 +107,7 @@
   .kalimat {
     text-align: center;
     font-family: "Poppins", sans-serif;
-    margin-top: 9%;
+    margin-top: 12%;
   }
   .kalimat p {
     font-size: small;
